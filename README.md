@@ -37,8 +37,11 @@ Tmux has a tabbed interface. but it calls its tabs 'Windows'.To stay organized.I
 * Some reasons I prefer tmux over screen
 
 1, Status bar is much easier to use.
-2, Choice of vi or emacs key layouts
-3, Much more accurate automatic window renaming
+
+2, Choice of vi or emacs key layouts.
+
+3, Much more accurate automatic window renaming.
+
 4, Nicer session handling. You can do a lot more with sessions within tmux itself. You can easily switch, rename, etc
 
 one big problem of `screen` is it is not actively developed,The [bug pages](https://savannah.gnu.org/bugs/?group=screen&func=browse&set=open&msort=0&advsrch=0&morder=bug_id%3C&offset=0#results) have close to 200 unassigned items going back over 5 years.
