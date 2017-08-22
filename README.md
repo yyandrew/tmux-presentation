@@ -31,6 +31,20 @@ Each session is persistent and will servive accidental disconnection(such as ssh
 # Windows
 Tmux has a tabbed interface. but it calls its tabs 'Windows'.To stay organized.I usually rename all the window I use;If I am coding, I will name the window `vim`, If i am debug I will name the window `rails s`
 
+# Panes
+
+## Sync tmux panes
+
+By using synchronize-panes window option you can send each pane the same keyboard input simultaneously.
+You can do this by switching to the appropriate window, typing your Tmux prefix (commonly Ctrl-B) and then a colon to bring up a Tmux command line, and typing:
+```sh
+:setw synchronize-panes
+```
+
+You can optionally add *on* or *off* to specify which state you want; otherwise the option is simply toggled. This option is specific to one window, so it won’t change the way your other sessions or windows operate. When you’re done, toggle it off again by repeating the command.
+
+This is an easy way to run interactive commands on multiple machines, perhaps to compare their speed or output, or if they have a similar setup a quick and dirty way to perform the same administrative tasks in parallel.
+
 # Key bindings
 
 `tmux` may be controlled from an attached client by using a key combination of a prefix key. `C+b` by default
