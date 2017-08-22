@@ -37,6 +37,8 @@ Tmux has a tabbed interface. but it calls its tabs 'Windows'.To stay organized.I
 
 Panes are pseudo terminals encapsulating shells (e.g., Bash, Zsh). They reside within a window. A terminal within a terminal, they can run shell commands, scripts, and programs, like vim, emacs, top, htop, rails server, rails console, and so on within them.
 
+To create a new pane, you can split-window from within the current window and pane you are in.
+
 ## Sync tmux panes
 
 By using synchronize-panes window option you can send each pane the same keyboard input simultaneously.
