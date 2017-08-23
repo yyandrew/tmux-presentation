@@ -19,8 +19,9 @@ Simply speaking tmux acts as a window manager within your terminal and allow you
 
 A status line at the bottom of the screen shows information on the current session and it used to enter interactive commands
 
+## Prefix
 
-[youtub](https://youtu.be/FEfuXRTqINg?t=21s).Before we go forther there is one requirement that i have to tell you first ant that's known as the prefix.Understanding the tmux prefix is a single most important thing that you will learn because it's where everything in tmux begins so by default the prefix which is basically just a keyboard shortcuts is `ctrl + B` so you hold ctrl and press letter B on your keyboard and what the prefix does is it says to tmux hi tmux i want you to do something and tmux listens for you to press another buttom on the keyboard thant  corresponds with an action that you want to to take.Now I am going to give you some examples next.
+[youtub](https://youtu.be/FEfuXRTqINg?t=21s).Before we go forther there is one requirement that i have to tell you first ant that's known as the *prefix*.Understanding the tmux *prefix* is a single most important thing that you will learn because it's where everything in tmux begins so by default the *prefix* which is basically just a keyboard shortcuts is `ctrl + B` so you hold ctrl and press letter B on your keyboard and what the *prefix* does is it says to tmux hi tmux i want you to do something and tmux listens for you to press another buttom on the keyboard thant  corresponds with an action that you want to to take.Now I am going to give you some examples next.
 
 # Tmux config
 Using the config files, lots can be customized. /etc/tmux.conf $HOME/.tmux.conf Session intialization Layout and colors of all status bar items Extending status bar with shell scripts Keyboard shortcuts / macros General behaviour of tmux Too much to mention here
@@ -57,7 +58,7 @@ This is an easy way to run interactive commands on multiple machines, perhaps to
 
 ## Diffence between tmux and screen
 
-* Some reasons I prefer tmux over screen
+### Some reasons I prefer tmux over screen
 
 1, Status bar is much easier to use.
 
