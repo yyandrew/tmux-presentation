@@ -1,7 +1,9 @@
 Hello everybody welcome to Creative Friday.Today I will introduce you a useful tool .It's tmux. Does anybody know tmux?
 
-I will show you why I like it.I am going to go ahead and close my window.So normally in most cases when you have work going on inside a terminal and you accidentally close it and your work is gone you pretty much lost everything that you are working on.I mean i am working on a ruby script that i put a lot of time in that i forgot to save or you know maybe some process was running that i really need to finish and i just accidentally closed the window that's not a good day for most people but what you can do with tmux if you use tmux.Let me show the magic.First I create a tmux session with command `tmux`.Then use `top` to show the process which running on my computer.And create an other panes by `<prefix> + %` run cowsay `Hello Tmux`, and create the third panes run `vim test.rb`.Then detach the session and close the terminal.Then open a new terminal.And you can notice here it's just an empty shell right so if I do a `tmux a` for attach
-press `Enter` there it is my workflow is backAnd the reason why is because even though i disconnnect form this tmux session tmux is still running on my computer so it's basically keeping my session alive in the background and i coulse connect to it and disconnect to it anytime i want.And that's one of the things i love most about it especially for those of you that work that actually use terminal a lot as i do at my day job.There is a lot of other reasons to use tmux.Don't worry about not knowing what i am doing here any commands that i am excute it here.In the next part I  will show you more about tmux.
+I use tmux almost every single day.I will show you why I think it is awsome.
+I am going to go ahead and close my window.So normally in most cases when you have work going on inside a terminal and you accidentally close it and your work is gone you pretty much lost everything that you are working on.I mean I am working on a ruby script that I put a lot of time in that, I forgot to save or you know maybe some process was running that I really need to finish and I just accidentally closed the window, that's not a good day for most people but what you can do with tmux.On the other hand if you are using tmux this will never happen.
+Let me show the magic.First I create a tmux session with command `tmux`.Then use `top` to show the process which running on my computer.And create an other panes by `<prefix> + %` run cowsay `Hello Tmux`, and create the third panes run `vim test.rb`.Then detach the session and close the terminal.Then open a new terminal.And you can notice here it's just an empty shell right so if I do a `tmux a` for attach press `Enter` there it is, My workflow is back.And this is the reason why I love it. Because even though I disconnnect from this tmux session tmux is still running on my computer so it's basically keeping my session alive in the background and I could connect to it and disconnect to it anytime i want.And that's one of the things i love most about it especially for those of you that work that actually use terminal a lot as i do at my day job.There is a lot of other reasons to use tmux.
+Don't worry about not knowing what i am doing here any commands that i am excute it here.
 
 In this presentation I will show you what tmux is and how to use it.
 
@@ -11,13 +13,13 @@ Tmux authors describe it as a terminal multiplexer.
 
 It enables a number of windows to be created, accessed, and controlled from a single window terminal.
 
-Maybe some of you are using iterm, terminal.
-
 When tmux is started it creates a new session within a single window and displays it on screen.
 
 Simply speaking tmux acts as a window manager within your terminal and allow you to create multiple windows and panes within a single terminal window.
 
 A status line at the bottom of the screen shows information on the current session and it used to enter interactive commands
+
+Maybe some of you are using iterm, terminal.But tmux has some special features they don't have and it is more powerful.Detach sesion and reattech session, status bar, choice of vi or emacs key layouts and so on, can be used even your os has no gui environment.
 
 ## Prefix
 
