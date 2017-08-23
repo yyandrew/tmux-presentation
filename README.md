@@ -9,7 +9,7 @@ In this presentation I will show you what tmux is and how to use it.
 
 # What is tmux
 
-Tmux authors describe it as a terminal multiplexer.
+Tmux authors describe it as a terminal multiplexer.A terminal multiplexer is a software application that can be used to multiplex several virtual consoles, allowing a user to access multiple separate terminal sessions inside a single terminal window or remote terminal session.
 
 It enables a number of windows to be created, accessed, and controlled from a single window terminal.
 
@@ -56,7 +56,7 @@ This is an easy way to run interactive commands on multiple machines, perhaps to
 
 # Key bindings
 
-`tmux` may be controlled from an attached client by using a key combination of a prefix key. `C+b` by default.As i menthioned here default means you can change the prefix key by you self.
+`tmux` may be controlled from an attached client by using a key combination of a prefix key. `C+b` by default.As i mentioned here default means you can change the prefix key by you self.
 
 ## Diffence between tmux and screen
 
